@@ -3,10 +3,11 @@
 
 .fetch-part{
 font-family: 'inter';
-font-size: 10px;
-font-weight: 400;
-
+font-size: 12px;
+font-weight: 600;
 }
 .symbol{
- 
+  background: #EDE9EF;
+  color: #292929;
+  
 }
