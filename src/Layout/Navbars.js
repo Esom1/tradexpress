@@ -15,7 +15,7 @@ const Navbars = () => {
 
       <Navbar bg="" expand="lg" className=''>
       <Container className=''>
-      <Link to='/'> <img className='mb-4 mt-3' src={navlogo} alt="nav-brand" /></Link>
+      <Link to='/'> <img className='mb-4 mt-5' src={navlogo} alt="nav-brand" /></Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className='justify-content-end '>
           <Nav
@@ -23,10 +23,10 @@ const Navbars = () => {
             // style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Link className='text-decoration-none text-white mt-4 mb-4 one' to='/BuySell'>Instant Buy/Sell</Link>
-            <Link className='text-decoration-none text-white mt-4 mb-4 two' to='/Learn'>Learn</Link>
-            <Link className='log mt-4 mb-4' to='/Login'> Login</Link>
-            <Link className='start mt-4 mb-4' to='/GetStarted'>Get Started</Link>
+            <Link className='text-decoration-none text-white mt-5 mb-4 one' to='/BuySell'>Instant Buy/Sell</Link>
+            <Link className='text-decoration-none text-white mt-5 mb-4 two' to='/Learn'>Learn</Link>
+            <Link className='log mt-5 mb-4' to='/Login'> Login</Link>
+            <Link className='start mt-5 mb-4' to='/GetStarted'>Get Started</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

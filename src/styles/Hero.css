@@ -2,3 +2,57 @@
   background-color: #7C20BE;
   height: 80vh;
 }
+.login{
+  padding: 0.3rem 5.6rem;
+  background-color: white;
+  color: #7C20BE;
+}
+.highlight{
+  padding-top: 9rem;
+  position: relative;
+  z-index: 1;
+}
+.link1{
+ width: 110px;
+}
+.link2{
+  width: 120px;
+  margin-left: 1rem;
+}
+.hero-section p{
+  font-family: 'inter';
+  font-size: 12px;
+  font-weight: 600;
+}
+.hero-section h2{
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.hero-section{
+  position: relative;
+
+}
+.circle{
+  display: flex;
+  position: absolute;
+  top: -1.4rem;
+  left: 22.4rem;
+}
+.small{
+  position: absolute;
+  left: 16rem;
+  width: 410px;
+  margin-right: 5rem;
+  top: 3rem;
+}
+.big{
+  width: 495px;
+}
+
+/* media query section for hero */
+@media(max-width:575px) {
+  .circle{
+    display: none;
+  }
+  
+}
