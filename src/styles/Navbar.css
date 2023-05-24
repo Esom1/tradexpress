@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=Inter:wght@100&family=PT+Sans:ital@1&family=Red+Hat+Display:wght@300&family=Roboto:wght@100;300&family=Rubik:wght@300;400&family=Silkscreen&display=swap');
+
+  .brand{
+    background-color: #7C20BE;
+  }
+.log{
+  padding: 0.3rem 3rem;
+  background-color: #7C20BE;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.start{
+  padding: 0.3rem 3rem;
+  background-color: white;
+  color: #7C20BE;
+  cursor: pointer;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.brand img{
+  width: 120px;
+}
+.one{
+  font-family: 'inter';
+  font-weight: 700;
+  font-size: 14px;
+}
+.two{
+  font-family: 'inter';
+  font-weight: 700;
+  font-size: 14px;
+}
