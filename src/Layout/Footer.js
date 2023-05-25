@@ -25,17 +25,17 @@ const Footer = () => {
           );
         })}
       </div>
-      <div className="d-flex justify-content-center gap-4 position-relative footer-image">
+      <div className="d-md-flex justify-content-center gap-4 position-relative footer-image">
         <img src={dataFooter[2].img[0]} alt="" />
         <img src={dataFooter[2].img[1]} alt="" />
         <img src={dataFooter[2].img[2]} alt="" />
         <img src={dataFooter[2].img[3]} alt="" />
       </div>
-      <div className="container d-flex gap-1 justify-content-center end">
+      <div className=" d-flex gap-1 justify-content-center end bg-light pt-3">
         <div className="last-image">
           <img src={copyright} alt="" />
         </div>
-        <div>
+        <div >
           <p>2021 Tradexpress Technologies. All Right Reserved</p>
         </div>
       </div>
