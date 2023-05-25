@@ -36,12 +36,12 @@
   line-height: 1.5rem;
 }
 .text2{
-  width: 120%;
-  font-size: 12px;
+  width: 100%;
+  font-size: 11px;
   /* margin: auto; */
-  font-weight: 500;
-  line-height: 1.3rem;
-  padding-right: 3rem;
+  font-weight: 600;
+  line-height: 18px;
+  /* padding-right: 3rem; */
 }
 .text3{
   width: 102%;

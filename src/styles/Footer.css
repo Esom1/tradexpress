@@ -14,3 +14,18 @@
   font-size: 13px;
   font-weight: 500;
 }
+.footer-image{
+  bottom: 5.5rem;
+  right: 3rem;
+}
+.footer-image img{
+  width: 10px;
+}
+.last-image img{
+  width: 15px;
+  padding-bottom: 2rem;
+}
+.end p{
+  font-size: 10px;
+  font-weight: 600;
+}
