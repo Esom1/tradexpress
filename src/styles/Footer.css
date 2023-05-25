@@ -4,8 +4,13 @@
   background-color: #EDE9EF;
   color: #26093A;
 }
-.footer-div{
+.footer-div p{
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 600;
+}
+.footer-div li{
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { dataFooter } from '../FooterDb'
+import '../styles/Footer.css'
 
 
 const Footer = () => {
@@ -9,8 +10,8 @@ const Footer = () => {
       {dataFooter.map((datumFooter)=>{
           const { id,title,educate,reach,company,rights,last } = datumFooter
           return(
-            <div className='fs-small footer-div'key={id}>
-              <h2> {title} </h2>
+            <div className='footer-div'key={id}>
+              <p> {title} </p>
               <ul className=' list-unstyled lh-lg'>
                 <li>{educate}</li>
                 <li>{reach}</li>
