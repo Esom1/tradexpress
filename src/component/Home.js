@@ -4,6 +4,7 @@ import FetchBtc from '../Pages/FetchBtc';
 import Involvement from '../Pages/Involvement';
 import SimpleSteps from '../Pages/SimpleSteps';
 import CreateAcct from '../Pages/CreateAcct';
+import PlatForm from '../Pages/PlatForm';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Involvement/>
       <SimpleSteps/>
       <CreateAcct/>
+      <PlatForm/>
       
     </div>
   )
