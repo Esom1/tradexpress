@@ -29,3 +29,9 @@
   font-weight: 700;
   padding-bottom: 1.5rem;
 }
+
+@media (max-width:768px) {
+  .base{
+    height: 50vh;
+  }
+}

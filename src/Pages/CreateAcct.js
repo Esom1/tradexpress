@@ -10,7 +10,7 @@ const CreateAcct = () => {
   return (
     <div className='base text-center'>
      <div  className='container'>
-     <div className='text-base text-center pt-5'>
+     <div className='text-base text-center pt-4'>
         <p className='top-1'>Ready to trade Buy/Sell cryptocurrencies in just 10 minutes?</p>
         <h3 className='top-2'>Create your account for free and start trading today!</h3>
       </div>
