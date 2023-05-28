@@ -41,3 +41,16 @@
 .vector-3 img{
   width: 140px;
 }
+@media(max-width:768px) {
+  .sell{
+  text-align: center;
+  font-family: 'Roboto';
+  width: 80%;
+  margin-left: 9%;
+  font-weight: 500;
+  }
+  .buy{
+    width: 90%;
+    margin-left: 2%;
+  }
+}
