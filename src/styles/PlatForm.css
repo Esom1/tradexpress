@@ -10,7 +10,7 @@
   font-family: "Roboto";
 }
 .tag-div p {
-  width: 120%;
+  width: 150%;
   font-size: 11px;
   font-weight: 500;
   text-align: center;
@@ -37,11 +37,11 @@
 }
 
 .gen-div {
-  padding-top: 9rem;
+  /* padding-top: 7rem; */
   position: relative;
   z-index: 1;
-  bottom: 6rem;
-  left: 1rem;
+  bottom: -3rem;
+  /* left: rem; */
   color: white;
 }
 .platform {
@@ -51,13 +51,13 @@
   position: absolute;
 }
 .tag-div2 p {
-  width: 120%;
+  width: 140%;
   font-size: 11px;
   font-weight: 500;
   text-align: center;
 }
 .tag-div3 p {
-  width: 120%;
+  width: 140%;
   font-size: 11px;
   font-weight: 500;
   text-align: center;
@@ -67,7 +67,7 @@
   position: relative;
   z-index: 1;
   bottom: 6rem;
-  left: 17rem;
+  left: 16rem;
   color: white;
 }
 .gen-div3 {
@@ -75,7 +75,7 @@
   position: relative;
   z-index: 1;
   bottom: 6rem;
-  left: 13rem;
+  left: 12rem;
   color: white;
 }
 .contain img {
@@ -87,30 +87,30 @@
 .ola {
   margin-right: 6.5rem;
 }
-.ireti p{
-  font-family: 'Roboto';
+.ireti p {
+  font-family: "Roboto";
   font-size: 11px;
   font-weight: 700;
 }
-.bayo p{
-  font-family: 'Roboto';
+.bayo p {
+  font-family: "Roboto";
   font-size: 11px;
   font-weight: 700;
 }
-.ola p{
-  font-family: 'Roboto';
+.ola p {
+  font-family: "Roboto";
   font-size: 11px;
   font-weight: 700;
 }
 
-@media (max-width:768px) {
-  .comment img{
+@media (max-width: 768px) {
+  .comment img {
     display: none;
   }
-  .gen-div{
+  .gen-div {
     gap: 2rem;
   }
-  .tag-div p{
+  .tag-div p {
     color: black;
     margin-left: -1rem;
     margin-bottom: -15%;
@@ -118,55 +118,51 @@
     font-size: 12px;
     font-weight: 600;
   }
-  .comment2 img{
+  .comment2 img {
     display: none;
   }
-  .tag-div2{
+  .tag-div2 {
     display: none;
   }
-  .comment3 img{
+  .comment3 img {
     display: none;
   }
-  .tag-div3{
+  .tag-div3 {
     display: none;
   }
-  .img-div img{
+  .img-div img {
     background-color: black;
     /* display: none; */
   }
-  .img-div2 img{
+  .img-div2 img {
     background-color: black;
     display: none;
   }
-  .img-div3 img{
+  .img-div3 img {
     background-color: black;
     display: none;
-
   }
-  .contain{
+  .contain {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
   }
-  .ireti img{
+  .ireti img {
     width: 50px;
   }
-  .bayo img{
+  .bayo img {
     width: 50px;
   }
-  .ola img{
+  .ola img {
     width: 50px;
   }
-  .bayo{
+  .bayo {
     margin-left: 4rem;
   }
-  .ola{
+  .ola {
     margin-right: 1rem;
   }
-  .ireti{
-    margin-right:1.5rem ;
+  .ireti {
+    margin-right: 1.5rem;
   }
-
-
-  
 }
