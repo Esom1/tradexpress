@@ -102,3 +102,71 @@
   font-size: 11px;
   font-weight: 700;
 }
+
+@media (max-width:768px) {
+  .comment img{
+    display: none;
+  }
+  .gen-div{
+    gap: 2rem;
+  }
+  .tag-div p{
+    color: black;
+    margin-left: -1rem;
+    margin-bottom: -15%;
+    width: 90%;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .comment2 img{
+    display: none;
+  }
+  .tag-div2{
+    display: none;
+  }
+  .comment3 img{
+    display: none;
+  }
+  .tag-div3{
+    display: none;
+  }
+  .img-div img{
+    background-color: black;
+    /* display: none; */
+  }
+  .img-div2 img{
+    background-color: black;
+    display: none;
+  }
+  .img-div3 img{
+    background-color: black;
+    display: none;
+
+  }
+  .contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+  }
+  .ireti img{
+    width: 50px;
+  }
+  .bayo img{
+    width: 50px;
+  }
+  .ola img{
+    width: 50px;
+  }
+  .bayo{
+    margin-left: 4rem;
+  }
+  .ola{
+    margin-right: 1rem;
+  }
+  .ireti{
+    margin-right:1.5rem ;
+  }
+
+
+  
+}

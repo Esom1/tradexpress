@@ -10,7 +10,7 @@ const PlatForm = () => {
   return (
     <div className="platform">
       <div className="container">
-        <div className="text-center holder mb-5">
+        <div className="text-center holder mb-4">
           <p>Customer’s Review</p>
         </div>
         <div className="d-flex">
@@ -58,8 +58,8 @@ const PlatForm = () => {
             <img src={comment} alt="" />
           </div>
         </div>
-        <div className="contain d-flex justify-content-between">
-         <div className="ireti d-flex gap-3">
+        <div className="contain d-md-flex justify-content-between">
+         <div className="ireti d-md-flex gap-3">
          <div>
             <img src={ireti} alt="" />
           </div>
@@ -67,7 +67,7 @@ const PlatForm = () => {
             <p> Ireti<br /> Nigeria</p>
           </div>
          </div>
-          <div className="bayo d-flex gap-3">
+          <div className="bayo d-md-flex gap-3">
           <div>
             <img src={bayo} alt="" />
           </div>
@@ -75,7 +75,8 @@ const PlatForm = () => {
             <p> Bayo<br /> Usa</p>
           </div>
           </div>
-          <div className="ola d-flex gap-3">
+         <div className="ola2">
+         <div className="ola d-md-flex gap-3">
           <div>
             <img src={ola} alt="" />
           </div>
@@ -83,6 +84,7 @@ const PlatForm = () => {
             <p> Olagoke<br /> Nigeria</p>
           </div>
           </div>
+         </div>
         </div>
       </div>
     </div>

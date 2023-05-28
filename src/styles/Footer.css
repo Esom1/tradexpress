@@ -29,3 +29,10 @@
   font-size: 10px;
   font-weight: 600;
 }
+
+@media (max-width:768px) {
+  .footer{
+    padding-top: .1rem;
+  }
+  
+}
