@@ -36,15 +36,14 @@
   line-height: 1.5rem;
 }
 .text2{
-  width: 100%;
-  font-size: 11px;
-  /* margin: auto; */
+  width: 95.5%;
+  font-size: 12px;
   font-weight: 600;
   line-height: 18px;
-  /* padding-right: 3rem; */
+ margin: auto;
 }
 .text3{
-  width: 102%;
+  width: 100%;
   font-size: 12px;
   margin: auto;
   font-weight: 500;
@@ -53,5 +52,71 @@
 .cards h6{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.ss1{
+  width: 95%;
+  margin: auto;
+}
+.ss2{
+  width: 73%;
+  margin: auto;
+}
+.ss3{
+  width: 90%;
+  margin: auto;
+}
+
+
+@media(max-width:768px){
+  .involve{
+    background: #EDE9EF;
+    color: #292929;
+    height: 75vh;
+  }
+  .ss1{
+    width: 80%;
+    margin: auto;
+  }
+  .text1 .dd {
+    display: none;
+  }
+  .ss2{
+    width: 90%;
+    margin: auto;
+  }
+  .text2 .dd {
+    display: none;
+  }
+  .ss3{
+    width: 95%;
+    margin: auto;
+  }
+  .text3 .dd {
+    display: none;
+  }
+  .cards{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .cc{
+    font-size: 15px;
+    font-weight: 600;
+    width: 112%;
+    margin: auto;
+    
+    
+  }
+  .cards img{
+    width: 50px;
+  }
+  .btwin img{
+    width: 50%;
+  }
+  .least img{
+    width: 59%;
+  }
+  .vest img{
+    width: 70%;
+  }
 }
 

@@ -33,13 +33,13 @@ const FetchBtc = () => {
         {data.map((datum)=>{
           const {id,symbol,percent_change_1h,price_usd} = datum
           return(
-            <div key={id} className='border-end w-25'>
-             <div className='d-flex justify-content-center align-items-center gap-3'>
-             <p>{symbol}/NGN</p>
-              <p>{percent_change_1h}% <span>{percent_change_1h <= 0 ? (<img src ={redarrow} alt = 'red-arrow-img' />):(<img src ={greenarrow} alt = 'green-arrow-img' />)}
+            <div key={id} className='border-lg-end w-25'>
+             <div className='d-flex justify-content-center align-items-center gap-3 minus'>
+             <p className='symbol'>{symbol}/NGN</p>
+              <p className='percent'>{percent_change_1h}% <span>{percent_change_1h <= 0 ? (<img className='arrow' src ={redarrow} alt = 'red-arrow-img' />):(<img className='arrow' src ={greenarrow} alt = 'green-arrow-img' />)}
               </span></p>
              </div>
-              <p className='text-center'>{price_usd}/NGN</p>
+              <p className='text-center local'>{price_usd}/NGN</p>
             </div>
           )
         })}

@@ -14,7 +14,7 @@ const Hero = () => {
     <h2>Buy, sell and manage your <br /> Crypto on TradExpress.</h2>
       <p>Easily Trade Cryptocurrencies like BTC, USDT, ETH, LTC <br /> & XRP with NGN.</p>
     </div>
-    <Link className='start mt-5 mb-4 login' to='/GetStarted'>Get Started</Link>
+    <Link className='start mt-5 mb-4 login1' to='/GetStarted'>Get Started</Link>
     <div className='link mt-4'>
       <img className='link1' src={applebtn} alt="apple button" />
       <img  className='link2' src={playstore} alt="playstore button" />

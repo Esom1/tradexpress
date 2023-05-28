@@ -5,7 +5,7 @@
   background-color: #7C20BE;
   height: 80vh;
 }
-.login{
+.login1{
   padding: 0.3rem 5.6rem;
   background-color: white;
   color: #7C20BE;
@@ -53,9 +53,17 @@
 }
 
 /* media query section for hero */
-@media(max-width:575px) {
+@media(max-width:768px) {
   .circle{
     display: none;
+  }
+  .highlight{
+    padding-top: 2rem;
+    
+  }
+  .hero-section{
+    background-color: #7C20BE;
+    height: 55vh;
   }
   
 }

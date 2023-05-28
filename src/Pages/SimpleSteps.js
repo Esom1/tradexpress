@@ -30,8 +30,8 @@ const SimpleSteps = () => {
       <img src={phone} alt="" />
     </div>
     </div>
-    <div className='general-2 mb-5'>
-      <div className='second-flex d-md-flex gap-3 mt-5'>
+    <div className='general-2 d-md-flex flex-row-reverse justify-content-between gap-5 mb-5'>
+      <div className='second-flex d-md-flex  gap-3 mt-5'>
         <div className='img-1'>
           <img src={two} alt="" />
         </div>

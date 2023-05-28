@@ -11,3 +11,21 @@ font-weight: 600;
   color: #292929;
   
 }
+
+
+@media(max-width:768px){
+  .minus{
+    gap: 5rem;
+    margin-top: 2rem;
+  }
+  .percent{
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+  .symbol{
+    padding-left:4rem
+  }
+  .local{
+    padding-right: 5rem;
+  }
+}

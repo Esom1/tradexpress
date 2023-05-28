@@ -41,10 +41,3 @@
 .vector-3 img{
   width: 140px;
 }
-.general-2{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  gap: 5rem;
-  align-items: center;
-}
