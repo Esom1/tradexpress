@@ -11,7 +11,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navbars = () => {
   return (
-    <div className='brand sticky-top'>
+    <div className='brand'>
       <Navbar bg="" expand="lg" className=''>
       <Container className=''>
       <Link to='/'> <img className='mb-1 mt-3' src={navlogo} alt="nav-brand" /></Link>
